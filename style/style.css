@@ -60,7 +60,7 @@ font-family: digital;
     }
 }
 
-@media screen and (max-width:43px){
+@media screen and (max-width:430px){
     .timer{
         font-size: 3rem;
     }
