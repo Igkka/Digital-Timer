@@ -1,0 +1,68 @@
+@import url(./button.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:  border-box;
+ }
+
+body{
+    background-color: black;
+}
+
+@font-face{
+    font-family: "digital";
+    src: url(../font/digital.ttf);
+}
+
+h1{
+    font-size: 4rem;
+    color: white;
+    font-weight: 900;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.app{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.timer{
+    color: rgb(65, 201, 137);
+    font-size: 5rem;
+    font-family: digital;
+    border: 5px solid rgba(79, 219, 154, 0.445);
+    padding: 20px;
+    border-radius: 8px;
+    border-top: 8px solid rgba(65, 201, 137, 0.445) ;
+    border-right: 8px solid rgba(65, 201, 137, 0.445) ;
+}
+
+.inputs{
+
+color: white;
+font-family: digital;
+    input{
+        font-family: digital;
+        text-align: center;
+        align-content: center;
+        width: 100px;
+        height: 100px;
+        border-bottom: 5px;
+        background: #000;
+        outline: none;
+        border: none;
+        color: white;
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width:43px){
+    .timer{
+        font-size: 3rem;
+    }
+    
+}
